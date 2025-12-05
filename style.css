@@ -1,0 +1,25 @@
+
+  h2 {
+  font-size: 60px;
+  margin-top: 30;
+  margin-bottom: 15px;
+  }
+ .music {
+		margin-top: 10px;
+		text-align: justify;
+	color:#808080;
+ 		font-size: 20px;
+}
+.music1{
+		margin-top: -10px;
+		text-align: justify;
+	color:#808080;
+}
+
+video{
+		margin-top: -10px;
+}
+.kesh{
+		margin-top: -5px;
+		color:#808080;
+}

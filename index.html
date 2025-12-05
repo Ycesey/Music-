@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/style.css"/>
+  <title>Music</title>
+</head>
+<body>
+  <h2>Soft Pop and Indie Pop Music</h2>
+  <p class="music1">
+    Soft pop is gentle, melodic music with soothing vibes, characterized by its calming and sweet nature. Indie, short for independent, initially referred to music released outside major labels, but now encompasses a style that's DIY, alternative, and often more personal or experimental in sound.
+  </p>
+  <p class="music">
+    Recommended "Soft Pop and Indi Pop Music"
+  </p>
+
+  <video controls width="300" height="200">
+    <source src="keshi - Soft Spot (Official Music Video).mp4" type="video/mp4">
+  </video>
+  <p class="kesh">
+    Soft Spot<br>
+    keshi-
+  </p>
+
+  <video controls width="300" height="200">
+    <source src="The Marías - Heavy (Official Audio).mp4" type="video/mp4">
+  </video>
+
+  <script>
+    const videos = document.querySelectorAll('video');
+
+    videos.forEach(video => {
+      video.addEventListener('play', () => {
+        // Pause all other videos except the one that started playing
+        videos.forEach(v => {
+          if (v !== video) {
+            v.pause();
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
